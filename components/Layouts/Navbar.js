@@ -35,15 +35,7 @@ class Navbar extends React.Component {
   }
 
   render() {
-    let { pathname } = this.props.router;
-
-    let layOutCls = 'marketing-navbar';
-    let logo = '/images/logo.jpg';
-    if (pathname == '/blue') {
-      let layOutCls = '';
-      let logo = '/images/logo.jpg';
-    }
-
+  
     const { collapsed } = this.state;
     const classOne = collapsed
       ? 'collapse navbar-collapse'
