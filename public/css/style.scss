@@ -1558,7 +1558,7 @@ Main Banner CSS
 
     .hero-content {
       h1 {
-        color: $white_color;
+        color: $black_color;
       }
 
       p {
@@ -1597,6 +1597,8 @@ Main Banner CSS
     }
 
     .marketing-image {
+      background: url("/images/banner.png") no-repeat  center/auto;
+
       position: relative;
       height: 100%;
       width: 100%;
