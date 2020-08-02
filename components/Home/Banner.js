@@ -24,7 +24,6 @@ class Banner extends React.Component {
     return (
       <React.Fragment>
         <div className="main-banner marketing-home">
-          <img src='/images/banner.png'/>
           <div className="d-table">
             <div className="d-table-cell">
               <div className="container">
@@ -33,19 +32,17 @@ class Banner extends React.Component {
                     <div className="hero-content">
                       <h1>Where</h1>
                       <h1>words</h1>
-                      <h1>fail,</h1> 
+                      <h1>fail,</h1>
                       <h1>Music</h1>
-                      <h1>speaks.</h1>                     
+                      <h1>speaks.</h1>
 
-                      
+
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-         
         </div>
       </React.Fragment>
     );
