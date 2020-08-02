@@ -1158,7 +1158,13 @@ Main Banner CSS
 =================================================*/
 .main-banner {
   height: 840px;
-  background: $template_color;
+  background: {
+    image: url(/images/banner.png);
+    position: center center;
+    size: cover;
+    attachment: fixed;
+    repeat: no-repeat;
+  }
   position: relative;
   z-index: 1;
 
