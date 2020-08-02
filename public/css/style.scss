@@ -1158,7 +1158,6 @@ Main Banner CSS
 =================================================*/
 .main-banner {
   height: 840px;
-  background: $template_color;
   position: relative;
   z-index: 1;
 
@@ -1191,17 +1190,6 @@ Main Banner CSS
       }
     }
 
-    .btn-primary {
-      &:not(:disabled):not(.disabled).active, &:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-        color: $template_color2;
-        background: $white_color;
-      }
-
-      &:hover, &:focus {
-        background: $white_color;
-        color: $template_color2;
-      }
-    }
 
     .video-btn {
       margin-left: 15px;
@@ -1566,7 +1554,7 @@ Main Banner CSS
   }
 
   &.marketing-home {
-    background: $white_color url("/images/banner.png") no-repeat  center/auto;
+    background: url("/images/banner.png") no-repeat  center/auto;
 
     .hero-content {
       h1 {
