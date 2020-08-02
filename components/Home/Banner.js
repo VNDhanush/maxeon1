@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-
+const images=[
+  '/images/banner.png'
+];
 const isServer = typeof window === 'undefined';
 const WOW = !isServer ? require('wowjs') : null;
 
