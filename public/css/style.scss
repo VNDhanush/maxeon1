@@ -105,24 +105,6 @@ img {
     vertical-align: middle;
   }
 }
-.contact-area{
-  height:400px;
-  &.container-fluid{
-    padding:0px;
-  }
-}
-
-.ptb-100 {
-    padding: {
-      top:50px;
-      bottom: 50px;
-     }
-  }
-
-
-.bg-gray {
-  background-color: #edf5ff;
-}
 
 p {
   font-size: 16px;
@@ -141,7 +123,7 @@ button {
 /* btn btn-primary */
 .btn-primary {
   color: $white_color;
-  background-color: $template_color;
+  background-color: #a3abbb;
 
   &:hover, &:focus, &:active {
     color: $white_color;
@@ -185,7 +167,7 @@ button {
   border-radius: 5px;
   text-transform: uppercase;
   position: relative;
-  box-shadow: 0 13px 27px $template_color;
+  box-shadow: 0 13px 27px #a3abbb;
   z-index: 1;
   transition: .9s;
 
@@ -196,7 +178,7 @@ button {
     height: 100%;
     width: 0;
     transition: .4s;
-    background: $template_color;
+    background: #a3abbb;
     z-index: -1;
     border-radius: 5px;
   }
@@ -1472,7 +1454,10 @@ Main Banner CSS
   }
 
   &.marketing-home {
+    background: url("/images/banner.png") no-repeat  center/auto;
+    .img{
 
+    }
     .hero-content {
       h1 {
         color: $black_color;
@@ -1514,7 +1499,6 @@ Main Banner CSS
     }
 
     .marketing-image {
-      background: url("/images/banner.png") no-repeat  center/auto;
 
       position: relative;
       height: 100%;

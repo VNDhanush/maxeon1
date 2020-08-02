@@ -18,6 +18,7 @@ class Banner extends React.Component {
     return (
       <React.Fragment>
         <div className="main-banner marketing-home">
+          <img src="/images/banner.png"/>
           <div className="d-table">
             <div className="d-table-cell">
               <div className="container">
