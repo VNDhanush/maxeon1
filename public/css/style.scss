@@ -1073,6 +1073,8 @@ Navbar CSS
 Main Banner CSS
 =================================================*/
 .main-banner {
+  background: url("/images/banner.png") no-repeat  center/auto;
+
   height: 840px;
   position: relative;
   z-index: 1;
@@ -1470,7 +1472,6 @@ Main Banner CSS
   }
 
   &.marketing-home {
-    background: url("/images/banner.png") no-repeat  center/auto;
 
     .hero-content {
       h1 {
