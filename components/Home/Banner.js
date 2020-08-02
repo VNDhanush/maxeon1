@@ -1,5 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
+import Lightbox from 'react-image-lightbox';
+
+const images = [
+  '/images/gallery1.png'
+];
+
 const isServer = typeof window === 'undefined';
 const WOW = !isServer ? require('wowjs') : null;
 
@@ -18,6 +24,7 @@ class Banner extends React.Component {
     return (
       <React.Fragment>
         <div className="main-banner marketing-home">
+          <img src='/images/banner.png'/>
           <div className="d-table">
             <div className="d-table-cell">
               <div className="container">
